@@ -1,0 +1,28 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/647b39268d24ec11ce2c240e
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Samuel Josha",
+    "email": "helo@hell.com",
+    "gender": "Male"
+}
+
+###
+PATCH http://localhost:3000/users/647b39268d24ec11ce2c240e
+Content-Type: application/json
+
+{
+    "name": "Albert Einstein GOAT",
+    "email": "helo@hell.com",
+    "gender": "Male"
+}
+
+###
+DELETE http://localhost:3000/users/647b39268d24ec11ce2c240e
+
